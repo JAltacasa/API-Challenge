@@ -1,0 +1,10 @@
+Observations WeatherPy
+    1. The closer the latitute is to zero, the temperature goes higher. This observation is reenforced by the fact that the r-squared values, for both the correlation
+       Temp vs Positive latitute and Temp vs Negative Latitute are about .6, which is very high.
+    
+    2. Cloudiness is not affected significantly by latitute. However, these does seem to be an indication that cloudiness is more affected by an increase from latitute 0 to 
+       a negative latitude. This is shown by a slight higher r-squared value for this correlation.
+
+    3. Humidity and latitude also seem to have little correlation. Though the correlation is more pronounced from latitude 0 to positive given a higher r-squared value. There are a lot of cities in the 
+       data sample located in very northern locations and with significant humidity.
+
